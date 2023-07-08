@@ -9,4 +9,5 @@
 - ChatGPT API
 
 # 🏷Preview
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7126a34c-b024-404d-b08f-4c6252a8bd30/Untitled.png)
+![Untitled](https://github.com/oaho/SignlanguagetoChatgpt/assets/112054732/8cc3f696-7550-4ae0-ace5-702537f4f90c)
+
