@@ -1,0 +1,41 @@
+{% load static %}
+{% block extrahead %}
+<link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+{% endblock %}
+<title>GPT에게 질문하기</title>
+<link rel="icon" href="https://cdn-icons-png.flaticon.com/128/2905/2905033.png">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
+    <div class="container">
+        <a class="navbar-brand" href="/#home/"><img src="https://cdn-icons-png.flaticon.com/128/2905/2905033.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto align-items-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="/#home/">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/signlanguagetochatgpt/">수어-ChatGPT</a>
+                </li>    
+            </ul>
+        </div>
+    </div>          
+</nav>
+<form action="chat" method="post" entype="application/x-www-form-urlencoded">
+    {% csrf_token %}
+    <section id="about" class="section">
+        <div class="container">
+            <div class="row text-center">
+                <div class="pl-md-4 col-md-12" id="file-module-0">
+                    <img src="data:image/png;base64,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" style="border:0px" alt="" class="img-thumbnail">
+                    <h6 class="title">ChatGPT에게 질문하기</h6><br>
+                    <textarea style = "text-align:left; padding:10px;" id="question" name="question"></textarea><br><br>
+                    <button class="btn btn-primary rounded mt-3" onclick="'location.href={% static 'result.html' %}">질문</button>
+                    {% comment %} <div><button id="text-button" type="submit" >질문</button></div>             {% endcomment %}
+                </div><br>
+            </div>
+        </div>
+    </section>
+</form>

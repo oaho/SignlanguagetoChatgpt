@@ -1,0 +1,131 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Steller landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Aivle 수어 ChapGPT 연동해보기</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="../static/assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Steller main styles -->
+	<link rel="stylesheet" href="../static/assets/css/steller.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="../static/assets/imgs/aivle.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Service</a>
+                    </li>                   
+                    <li class="nav-item">
+                        <a class="- btn btn-primary rounded ml-4" href="login.html">Log in</a>
+                    </li>
+                </ul>
+            </div>
+        </div>          
+    </nav>
+    <!-- End of page navibation -->
+
+    <!-- Page Header -->
+    <header class="header" id="home">
+        <div class="container">
+            <div class="infos">
+                <h6 class="subtitle">미니프로젝트 7차</h6>
+                <h6 class="title">AI 3반 9조</h6>
+            </div>     
+
+            <div class="img-holder">
+                <img src="../static/assets/imgs/man.svg" alt="">
+            </div>      
+        </div> 
+
+    </header>
+    <!-- End of Page Header -->
+    
+    <!-- About section -->
+    <section id="about" class="section mt-3">
+        <div class="container mt-5">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3">
+                    <img src="../static/assets/imgs/sign_language.jpg" alt="" class="img-thumbnail mb-4">
+                </div>
+                <div class="pl-md-4 col-md-9">
+                    <h6 class="title">수어란?</h6>
+                    <p>음성 대신 손의 움직임을 포함한 신체적 신호를 이용하여 의사를 전달하는 시각 언어. 수화(手話)라고도 하는데 수어는 수화라는 방법으로 구사되는 언어 체계를 말한다. 수어는 손가락이나 팔로 그리는 모양, 그 위치나 이동, 표정이나 입술의 움직임 등을 종합하여 행해진다.</p>            
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of About Section -->
+
+    <!-- Service section -->
+    <section id="service" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">Service</h6>
+            <h6 class="section-title mb-4">무엇을 할 수 있나요?</h6>
+            <p class="mb-5 pb-4">chatgpt api를 이용해 질문을 할 수 있습니다.<br> 수어 사진을 이용해 chatgpt에게 질문 할 수 있습니다.</p>
+
+            <div class="row">
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-desktop"></i>
+                            <a href="/selfchatgpt/"><h5>ChatGPT API <br>사용하기</h5></a>
+                            <a class="- btn btn-primary rounded" href="/selfchatgpt/">ChatGPT API 사용하기</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-desktop"></i>
+                            <a href="/selfsignlanguagetochatgpt/"><h5>수어-ChatGPT <br>사용해보기</h5></a>
+                            <a class="- btn btn-primary rounded" href="/selfsignlanguagetochatgpt/">수어-ChatGPT 사용하기</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End of Service Section -->
+
+    <!-- Page Footer -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-6">
+                    <p>Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a href="https://aivle.kt.co.kr/home/main/indexMain" target="_blank">Aivle</a></p>
+                </div>
+                
+            </div>
+        </div>
+    </footer> 
+    <!-- End of page footer -->
+	
+	<!-- core  -->
+    <script src="../static/assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="../static/assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <!-- bootstrap 3 affix -->
+	<script src="../static/assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- steller js -->
+    <script src="../static/assets/js/steller.js"></script>
+
+</body>
+</html>

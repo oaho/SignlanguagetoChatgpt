@@ -1,0 +1,958 @@
+<html lang="ko"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/common/css/common.css">
+    <link rel="stylesheet" href="/common/css/swiper.min.css">
+    <link rel="stylesheet" href="/common/css/main.css">
+    <link rel="stylesheet" href="/common/css/slick.css">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-XFQ22VMSGH&amp;l=dataLayer&amp;cx=c"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=UA-227488286-3&amp;l=dataLayer&amp;cx=c"></script><script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="/common/js/main.js"></script>
+    <script type="text/javascript" src="/common/js/slick.min.js"></script>
+    <script type="text/javascript" src="/common/js/swiper.min.js"></script>
+    <link rel="icon" type="image/png" href="/img/common/favicon.png">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="히츠">
+    <meta property="og:url" content="https://hits.ai/">
+    <meta property="og:site_name" content="히츠">
+    <meta property="og:description" content="쉽고 효율적인 신약 개발의 시작 - 인공지능 신약 개발 전문 기업, 히츠">
+    <meta name="description" content="쉽고 효율적인 신약 개발의 시작 - 인공지능 신약 개발 전문 기업, 히츠">
+    <meta name="keywords" content="인공지능(AI) 신약개발, 초기 후보물질 발굴, 약물 후보물질 설계, 약물 물성 예측, 공동 신약 개발, 플랫폼 서비스, 히츠">
+    <meta property="og:image" content="/img/thumbmail.jpg">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-MR484Z258M"></script>
+
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+ 
+
+  gtag('config', 'G-MR484Z258M');
+
+</script>
+
+
+
+<script type="text/javascript">
+<!--
+/*쿠키삭제*/
+function delPopupCookie(id){
+	var nowcookie = getPopupCookie('POP_VIEW');
+	setPopupCookie('POP_VIEW', '['+id+']' + nowcookie , 0);
+}
+
+/*쿠키세팅*/
+function setPopupCookie(name,value,expiredays) {
+	var todayDate = new Date();
+	todayDate.setDate( todayDate.getDate() + expiredays );
+	document.cookie = name + "=" + escape( value ) + "; path=/; expires=" + todayDate.toGMTString() + ";"
+}
+
+/*쿠키추출*/
+function getPopupCookie( name ){
+	var nameOfCookie = name + "=";
+	var x = 0;
+	while ( x <= document.cookie.length ){
+		var y = (x+nameOfCookie.length);
+		if ( document.cookie.substring( x, y ) == nameOfCookie ) {
+			if ( (endOfCookie=document.cookie.indexOf( ";", y )) == -1 ) endOfCookie = document.cookie.length;
+			return unescape( document.cookie.substring( y, endOfCookie ) );
+		}
+		x = document.cookie.indexOf( " ", x ) + 1;
+		if ( x == 0 ) break;
+	}
+	return "";
+}
+
+/*객체얻기*/
+function getElm(id){
+	return document.getElementById(id);
+}
+
+/*닫기동작*/
+function hideLayerPopup(uid) {
+	if (getElm('pop-layer-'+uid+'-ckd').checked == true){
+		var nowcookie = getPopupCookie('POP_VIEW');
+		setPopupCookie('POP_VIEW', '['+uid+']' + nowcookie , 1);
+	}
+	getElm('pop-layer-'+uid).style.display = 'none';
+}
+
+	/*숨기기체크*/
+	if (getPopupCookie('POP_VIEW').indexOf('[]') == -1){
+		if(document.getElementById('pop-layer-')) getElm('pop-layer-').style.display = 'block';
+	}
+</script>
+ 
+    <title>히츠</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+    $(document).ready(function(){
+       $("#header").load("/html/header.html");
+    });
+    </script>
+    <div id="header" class=""><h1 id="logo">
+    <a href="/">
+        <img src="/img/common/logo.png" alt="히츠">
+    </a>
+</h1>
+<div id="menu">
+    <div id="gnb">
+        <ul>
+            <li><a href="/sub/ourstory.html"><span>ABOUT HITS</span></a>
+                <div>
+                        <ul>
+                        <li><a href="/sub/ourstory.html">OUR STORY</a></li>
+                        <li><a href="/sub/leader.html">LEADERSHIP</a></li>
+                        <li><a href="/sub/history.html">HISTORY</a></li>
+                        <li><a href="https://hits.wehire.kr/" target="_blink">RECRUIT</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="/sub/solution01.html"><span>SOLUTIONS</span></a>
+                <div>
+                    <ul>
+                        <li><a href="/sub/solution01.html">초기 후보물질 발굴</a></li>
+                        <li><a href="/sub/solution02.html">약물 후보물질 설계</a></li>
+                        <li><a href="/sub/solution03.html">약물 물성 예측</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="/sub/business.html"><span>PARTNERSHIP</span></a>
+                <div>
+                    <ul>
+                        <li><a href="/sub/business.html">BUSINESS MODEL</a></li>
+                        <li><a href="/sub/case.html">CASE STUDY</a></li>
+                        <li><a href="/sub/faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="/sub/contact.html"><span>CONTACT</span></a></li>
+        </ul>
+    </div>
+    <ul class="lang">
+        <li class="on"><a href="/">KR</a></li>
+        <li><a href="/index_en.html">EN</a></li>
+    </ul>
+    <div class="m_menu">
+        <button>
+            <i class="box01"></i>
+            <i class="box02"></i>
+            <i class="box03"></i>
+            <i class="box04"></i>
+        </button>
+    </div>
+</div>
+<div class="s_menu">
+   <button><img src="/img/common/close.png" alt=""></button>
+    <ul>
+        <li><a href="#"><span>ABOUT HITS</span></a>
+            <ul>
+                <li><a href="/sub/ourstory.html">OUR STORY</a></li>
+                <li><a href="/sub/leader.html">LEADERSHIP</a></li>
+                <li><a href="/sub/history.html">HISTORY</a></li>
+                <li><a href="https://hits.wehire.kr/" target="_blink">RECRUIT</a></li>
+            </ul>
+        </li>
+        <li><a href="#"><span>SOLUTIONS</span></a>
+            <ul>
+                <li><a href="/sub/solution01.html">초기 후보물질 발굴</a></li>
+                <li><a href="/sub/solution02.html">약물 후보물질 설계</a></li>
+                <li><a href="/sub/solution03.html">약물 물성 예측</a></li>
+            </ul>
+        </li>
+        <li><a href="#"><span>PARTNERSHIP</span></a>
+            <ul>
+                <li><a href="/sub/business.html">BUSINESS MODEL</a></li>
+                <li><a href="/sub/case.html">CASE STUDY</a></li>
+                <li><a href="/sub/faq.html">FAQ</a></li>
+            </ul>
+        </li>
+        <li><a href="/sub/contact.html"><span>CONTACT</span></a></li>
+    </ul>
+</div>
+<script>
+    $(function(){
+        $('#header').hover(function(){
+            $('#header').addClass('on')
+        }, function(){
+            $('#header').removeClass('on')
+        })
+        
+        $('#header .mo_menu .gnb1 > ul > li > a').click(function(){
+			$(this).siblings('ul').toggleClass('on')
+		});
+
+		$('#header .m_menu button').click(function(){
+			$('.s_menu').addClass('on')
+		});
+		
+		$('.s_menu button').click(function(){
+			$('.s_menu').removeClass('on')
+		});
+        $('#main').click(function(){
+			$('.s_menu').removeClass('on')
+		});
+        
+        
+        
+        $('.s_menu > ul > li > a').click(function(){
+//            $('.s_menu > ul > li > ul').slideUp('600');
+            $(this).siblings('ul').slideToggle('600');
+        })
+        
+        $('#sub.solution .pat .list > li a').click(function(){
+            return false
+        })
+		
+    })
+</script>
+
+
+ <script>
+ $(function(){
+
+        $(window).scroll(function(){
+            var top = $(window).scrollTop();
+            var wid = $(window).width();
+
+            if (top>0) {
+                $('#header').addClass('act');
+            }
+            else{
+                $('#header').removeClass('act');
+            }
+     
+        });
+    })  
+</script></div>
+    <div class="s_menu">
+       <button><img src="/img/common/close.png" alt=""></button>
+        <ul>
+            <li><a href="#"><span>ABOUT HITS</span></a>
+                <ul>
+                    <li><a href="/sub/ourstory.html">OUR STORY</a></li>
+                    <li><a href="/sub/leader.html">LEADERSHIP</a></li>
+                    <li><a href="/sub/history.html">HISTORY</a></li>
+                    <li><a href="https://hits.wehire.kr/" target="_blink">RECRUIT</a></li>
+                </ul>
+            </li>
+            <li><a href="#"><span>SOLUTIONS</span></a>
+                <ul>
+                    <li><a href="/sub/solution01.html">초기 후보물질 발굴</a></li>
+                    <li><a href="/sub/solution02.html">약물 후보물질 설계</a></li>
+                    <li><a href="/sub/solution03.html">약물 물성 예측</a></li>
+                </ul>
+            </li>
+            <li><a href="#"><span>PARTNERSHIP</span></a>
+                <ul>
+                    <li><a href="/sub/business.html">BUSINESS MODEL</a></li>
+                    <li><a href="/sub/case.html">CASE STUDY</a></li>
+                    <li><a href="/sub/faq.html">FAQ</a></li>
+                </ul>
+            </li>
+            <li><a href="/sub/contact.html"><span>CONTACT</span></a></li>
+        </ul>
+    </div>
+    <div id="main">
+        <div class="main_w swiper-container-initialized swiper-container-free-mode swiper-container-horizontal">
+            <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
+               
+                <div class="swiper-slide main_con01 on swiper-slide-active">
+                    <div class="wrap">
+                        <div class="inner">
+                            <div class="con01">
+                                <div class="left">
+                                    <a href="/sub/ourstory.html">
+                                        <div class="txt">
+                                            <strong>신약개발 과정의 디지털 전환</strong>
+                                            <p>혁신신약의&nbsp;탄생을&nbsp;앞당깁니다.</p>
+                                        </div>
+                                        <i><img src="/img/main/plus.png" alt=""></i>
+                                    </a>
+                                </div>
+                                <div class="right">
+                                    <ul>
+                                        <li>
+                                            <a href="/sub/business.html">
+                                                <div class="txt">
+                                                    <strong>Joint research</strong>
+                                                    <p>신약개발의 시작과 끝, <br>
+                                                    HITS와 함께</p>
+                                                    <span>MORE</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/sub/business.html">
+                                                <div class="txt">
+                                                    <strong>Platform service</strong>
+                                                    <p>Hit discovery와 같은 <br>
+                                                    개별 서비스를 원한다면</p>
+                                                    <span>MORE</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="con02">
+                                <ul>
+                                    <li>
+                                        <div class="box" style="display: none;">
+                                            <div>
+                                                <p>HITS가 Virtual lab이 되어 파이프라인을 <br>
+                                                가속화합니다.</p>
+                                            </div>
+                                        </div>
+										
+                                        <div class="tit">
+                                            <div class="left">
+                                                <span>Joint research</span>
+                                                <strong>9 Cases</strong>
+                                            </div>
+                                            <div class="right">
+                                                <ul>
+                                                    <li><i><img src="/img/main/m_icon01_01.png" alt=""></i></li>
+                                                    <li><i><img src="/img/main/m_icon01_02.png" alt=""></i></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+<!--                                        <div class="logo_w">-->
+                                            <div class="logo_s swiper-container-initialized swiper-container-horizontal">
+                                               <div class="swiper-wrapper" style="transform: translate3d(-375px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" style="width: 62.5px;" data-swiper-slide-index="0"><div><img src="/_upload/board/45782979.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" style="width: 62.5px;" data-swiper-slide-index="1"><div><img src="/_upload/board/7052204688.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" style="width: 62.5px;" data-swiper-slide-index="2"><div><img src="/_upload/board/8651478993.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" style="width: 62.5px;" data-swiper-slide-index="3"><div><img src="/_upload/board/4945553941.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" style="width: 62.5px;" data-swiper-slide-index="4"><div><img src="/_upload/board/5542275183.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" style="width: 62.5px;" data-swiper-slide-index="5"><div><img src="/_upload/board/5828319573.png" alt=""></div></div>
+											   <div class="swiper-slide swiper-slide-active" style="width: 62.5px;" data-swiper-slide-index="0"><div><img src="/_upload/board/45782979.png" alt=""></div></div><div class="swiper-slide swiper-slide-next" style="width: 62.5px;" data-swiper-slide-index="1"><div><img src="/_upload/board/7052204688.png" alt=""></div></div><div class="swiper-slide" style="width: 62.5px;" data-swiper-slide-index="2"><div><img src="/_upload/board/8651478993.png" alt=""></div></div><div class="swiper-slide" style="width: 62.5px;" data-swiper-slide-index="3"><div><img src="/_upload/board/4945553941.png" alt=""></div></div><div class="swiper-slide" style="width: 62.5px;" data-swiper-slide-index="4"><div><img src="/_upload/board/5542275183.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate-prev" style="width: 62.5px;" data-swiper-slide-index="5"><div><img src="/_upload/board/5828319573.png" alt=""></div></div> 
+                                               <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" style="width: 62.5px;" data-swiper-slide-index="0"><div><img src="/_upload/board/45782979.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" style="width: 62.5px;" data-swiper-slide-index="1"><div><img src="/_upload/board/7052204688.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" style="width: 62.5px;" data-swiper-slide-index="2"><div><img src="/_upload/board/8651478993.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" style="width: 62.5px;" data-swiper-slide-index="3"><div><img src="/_upload/board/4945553941.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" style="width: 62.5px;" data-swiper-slide-index="4"><div><img src="/_upload/board/5542275183.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" style="width: 62.5px;" data-swiper-slide-index="5"><div><img src="/_upload/board/5828319573.png" alt=""></div></div></div> 
+                                               <div class="swiper-next" tabindex="0" role="button" aria-label="Next slide"></div>
+                                               <div class="swiper-prev" tabindex="0" role="button" aria-label="Previous slide"></div>
+                                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+<!--                                        </div>-->
+                                    </li>
+                                    <li>
+                                        <div class="box" style="display: none;">
+                                            <div>
+                                                <p>신약개발 특정 단계의 솔루션을 <br>
+                                                빠르게 제공합니다.</p>
+                                            </div>
+                                        </div>
+										                                        <div class="tit">
+                                            <div class="left">
+                                                <span>Platform service</span>
+                                                <strong>15 Cases</strong>
+                                            </div>
+                                            <div class="right">
+                                                <ul>
+                                                    <li><i><img src="/img/main/m_icon02_01.png" alt=""></i></li>
+                                                    <li><i><img src="/img/main/m_icon02_02.png" alt=""></i></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+<!--                                        <div class="logo_w">-->
+                                            <div class="logo_s swiper-container-initialized swiper-container-horizontal">
+                                               <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-250px, 0px, 0px);"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" style="width: 62.5px;" data-swiper-slide-index="0"><div><img src="/_upload/board/2029649075.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" style="width: 62.5px;" data-swiper-slide-index="1"><div><img src="/_upload/board/5943806222.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" style="width: 62.5px;" data-swiper-slide-index="2"><div><img src="/_upload/board/6647716187.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" style="width: 62.5px;" data-swiper-slide-index="3"><div><img src="/_upload/board/3475206298.png" alt=""></div></div>
+											   <div class="swiper-slide swiper-slide-active" style="width: 62.5px;" data-swiper-slide-index="0"><div><img src="/_upload/board/2029649075.png" alt=""></div></div><div class="swiper-slide swiper-slide-next" style="width: 62.5px;" data-swiper-slide-index="1"><div><img src="/_upload/board/5943806222.png" alt=""></div></div><div class="swiper-slide" style="width: 62.5px;" data-swiper-slide-index="2"><div><img src="/_upload/board/6647716187.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate-prev" style="width: 62.5px;" data-swiper-slide-index="3"><div><img src="/_upload/board/3475206298.png" alt=""></div></div>  
+                                               <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" style="width: 62.5px;" data-swiper-slide-index="0"><div><img src="/_upload/board/2029649075.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" style="width: 62.5px;" data-swiper-slide-index="1"><div><img src="/_upload/board/5943806222.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" style="width: 62.5px;" data-swiper-slide-index="2"><div><img src="/_upload/board/6647716187.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" style="width: 62.5px;" data-swiper-slide-index="3"><div><img src="/_upload/board/3475206298.png" alt=""></div></div></div> 
+                                               <div class="swiper-next" tabindex="0" role="button" aria-label="Next slide"></div>
+                                               <div class="swiper-prev" tabindex="0" role="button" aria-label="Previous slide"></div>
+                                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+<!--                                        </div>-->
+                                    </li>
+                                    <li> 
+                                        <div class="box" style="display: none;">
+                                            <div>
+                                                <p>플랫폼으로 도출한 최종 컴파운드 내 <br>
+                                                유효물질의 비율</p>
+                                            </div>
+                                        </div>
+										                                        <div class="tit">
+                                            <div class="left">
+                                                <span>Hit ratio</span>
+                                                <strong>7%</strong>
+                                            </div>
+                                            <div class="right">
+                                                <ul>
+                                                    <li><i><img src="/img/main/m_icon03_01.png" alt=""></i></li>
+                                                    <li><i><img src="/img/main/m_icon03_02.png" alt=""></i></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="logo_t">
+                                            <ul>
+                                                <li>Conventional docking <span>1%</span></li>
+                                                <li>High-throughput screening <span>0.1%</span></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="box" style="display: none;">
+                                            <div>
+                                                <p>결과 전달까지 평균 프로젝트 수행 기간</p>
+                                            </div>
+                                        </div>
+										                                        <div class="tit">
+                                            <div class="left">
+                                                <span>Digital to real</span>
+                                                <strong>3 weeks</strong>
+                                            </div>
+                                            <div class="right">
+                                                <i class="circle"><img src="/img/main/m_icon04.png" alt=""></i>
+                                            </div>
+                                        </div>
+                                        <div class="line_area">
+                                            <div class="line">
+                                                <i></i>
+                                            </div>
+                                        </div>
+                                        <div class="txt">
+                                            <span>HITS Platform</span>
+                                            <span class="fr">결과전달</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide main_con02 swiper-slide-next">
+                    <div class="inner">
+                        <div class="wrap">
+                            <ul>
+                                <li>
+                                    <a href="/sub/solution01.html">
+                                        <div class="ic ic01">
+                                            <ul>
+                                                <li><img src="/img/main/m2_icon01_01.png" alt=""></li>
+                                                <li><img src="/img/main/m2_icon01_02.png" alt=""></li>
+                                            </ul>
+                                            <div class="center">
+                                                <img src="/img/main/m2_icon01_03.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="txt">
+                                            <strong>초기 후보물질 발굴</strong>
+                                            <p>구조 기반 약물-단백질 결합력 예측 <br>
+                                            딥러닝 모델 및 첨단 디지털 기술을 이용하여 <br>
+                                            약물 후보를 선별합니다.</p>
+                                            <ul>
+                                                <li>Hit discovery</li>
+                                                <li>Protein-ligand interaction prediction</li>
+                                                <li>Physics informed AI</li>
+                                            </ul>
+                                        </div>
+                                        <div class="icon"><img src="/img/main/plus.png" alt=""></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/sub/solution02.html">
+                                        <div class="ic ic02">
+                                            <ul>
+                                                <li><img src="/img/main/m2_icon02_01.png" alt=""></li>
+                                                <li><img src="/img/main/m2_icon02_02.png" alt=""></li>
+                                            </ul>
+                                        </div>
+                                        <div class="txt">
+                                            <strong>약물 후보물질 설계</strong>
+                                            <p>딥러닝을 이용하여 신규 약물 후보물질을 <br>
+                                            디자인합니다. 작용기 단위 분자 디자인 알고리즘을 <br>
+                                            통해 합성 가능성이 높은 분자를 설계할 수 있습니다.</p>
+                                            <ul>
+                                                <li>Hit-to-lead</li>
+                                                <li>Deep generative model</li>
+                                                <li>Virtual library</li>
+                                            </ul>
+                                        </div>
+                                        <div class="icon"><img src="/img/main/plus.png" alt=""></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/sub/solution03.html">
+                                        <div class="ic ic03">
+                                            <ul>
+                                                <li><img src="/img/main/m2_icon03_01.png" alt=""></li>
+                                                <li><img src="/img/main/m2_icon03_02.png" alt=""></li>
+                                            </ul>
+                                        </div>
+                                        <div class="txt">
+                                            <strong>약물 물성 예측</strong>
+                                            <p>전임상 진입을 위해 필요한 PK/PD 관련 <br>
+                                            물성들을 예측합니다. 다양한 물성 예측을 통해 <br>
+                                            사전 검증함으로써 전임상 성공률을 높입니다. </p>
+                                            <ul>
+                                                <li>Lead optimization</li>
+                                                <li>ADME/T</li>
+                                                <li>Generalization</li>
+                                            </ul>
+                                        </div>
+                                        <div class="icon"><img src="/img/main/plus.png" alt=""></div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide main_con03">
+                    <div class="wrap">
+                        <div class="inner">
+                            <div class="left">
+                                <strong><i><img src="/img/main/hits.png" alt=""></i>
+                                하나 <br>
+                                더했을 뿐인데</strong>
+                                <div class="img">
+                                    <ul>
+                                        <li><img src="/img/main/img_base01.png" alt=""></li>
+                                        <li><img src="/img/main/img_base02.png" alt=""></li>
+                                        <li><img src="/img/main/img_base03.png" alt=""></li>
+                                        <li><img src="/img/main/img_base04.png" alt=""></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <ul>
+                                    <li>
+                                        <div class="txt">
+                                            <strong>유효물질 발굴이 더 빨라집니다. </strong>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="txt">
+                                            <strong>1주일 만에 44만개 라이브러리 중 8종 확인</strong>
+                                            <span>*파트너사 실험 기간 3주</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="txt">
+                                            <strong>타겟 단백질 분석이 더 쉬워집니다.</strong>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="txt">
+                                            <strong>새로운 약물 작용 기전을 제시할 수 있습니다.</strong>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="txt">
+                                            <strong>합성이 쉽고 특허성 있는 신규 골격을 발굴할 수 있습니다.</strong>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="txt">
+                                            <strong>기존에는 1년 동안 활성물질 2종 발굴, 이젠 6개월 만에 15종</strong>
+                                        </div>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next all_next all_btn" tabindex="0" role="button" aria-label="Next slide" aria-disabled="false">
+                <div class="line line_m">
+                    <div class="line01"></div>
+                    <div class="line02"></div>
+                </div>
+                <div class="line">
+                    <div class="line01"></div>
+                    <div class="line02"></div>
+                </div>
+            </div>
+            <div class="swiper-button-prev all_prev all_btn swiper-button-disabled" tabindex="0" role="button" aria-label="Previous slide" aria-disabled="true">
+                <div class="line">
+                    <div class="line01"></div>
+                    <div class="line02"></div>
+                </div>
+                <div class="line line_m">
+                    <div class="line01"></div>
+                    <div class="line02"></div>
+                </div>
+            </div>
+            <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span></div>
+        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+        <div class="main_w2">
+               
+                <div class="section main_con01 on">
+<!--
+                   <div class="fix">
+                       <span>SOLUTION</span>
+                   </div>
+-->
+                    <div class="wrap">
+                        <div class="inner">
+                            <div class="con01">
+                                <div class="left">
+                                    <a href="#">
+                                        <div class="txt">
+                                            <strong>Efficient way for effective drug</strong>
+                                            <p>물리화학 기반 딥러닝 플랫폼으로 혁신신약의 탄생을 앞당깁니다.</p>
+                                        </div>
+                                        <i><img src="/img/main/plus.png" alt=""></i>
+                                    </a>
+                                </div>
+                                <div class="right">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <div class="txt">
+                                                    <strong>Joint research</strong>
+                                                    <p>신약개발의 시작과 끝, <br>
+                                                    HITS와 함께</p>
+                                                    <span>MORE</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="txt">
+                                                    <strong>Platform service</strong>
+                                                    <p>Hit discovery와 같은 <br>
+                                                    개별 서비스를 원한다면</p>
+                                                    <span>MORE</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="con02">
+                                <ul>
+                                    <li>
+                                        <div class="box">
+                                            <div>
+                                                <p>HITS가 Virtual lab이 되어 파이프라인을 <br>
+                                                가속화합니다.</p>
+                                            </div>
+                                        </div>
+                                        <div class="tit">
+                                            <div class="left">
+                                                <span>Joint research</span>
+                                                <strong>6 Cases</strong>
+                                            </div>
+                                            <div class="right">
+                                                <ul>
+                                                    <li><i><img src="/img/main/m_icon01_01.png" alt=""></i></li>
+                                                    <li><i><img src="/img/main/m_icon01_02.png" alt=""></i></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+<!--                                        <div class="logo_w">-->
+                                            <div class="logo_s swiper-container-initialized swiper-container-horizontal">
+                                               <div class="swiper-wrapper" style="transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0"><div><img src="/img/main/s_logo02.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1"><div><img src="/img/main/s_logo03.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2"><div><img src="/img/main/s_logo04.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3"><div><img src="/img/main/s_logo02.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4"><div><img src="/img/main/s_logo03.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="5"><div><img src="/img/main/s_logo04.png" alt=""></div></div>
+                                                 <div class="swiper-slide" data-swiper-slide-index="0"><div><img src="/img/main/s_logo02.png" alt=""></div></div>
+                                                 <div class="swiper-slide" data-swiper-slide-index="1"><div><img src="/img/main/s_logo03.png" alt=""></div></div>
+                                                 <div class="swiper-slide" data-swiper-slide-index="2"><div><img src="/img/main/s_logo04.png" alt=""></div></div>
+                                                 <div class="swiper-slide" data-swiper-slide-index="3"><div><img src="/img/main/s_logo02.png" alt=""></div></div>
+                                                 <div class="swiper-slide" data-swiper-slide-index="4"><div><img src="/img/main/s_logo03.png" alt=""></div></div>
+                                                 <div class="swiper-slide" data-swiper-slide-index="5"><div><img src="/img/main/s_logo04.png" alt=""></div></div>
+                                               <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0"><div><img src="/img/main/s_logo02.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1"><div><img src="/img/main/s_logo03.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2"><div><img src="/img/main/s_logo04.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3"><div><img src="/img/main/s_logo02.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4"><div><img src="/img/main/s_logo03.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="5"><div><img src="/img/main/s_logo04.png" alt=""></div></div></div> 
+                                               <div class="swiper-next" tabindex="0" role="button" aria-label="Next slide"></div>
+                                               <div class="swiper-prev" tabindex="0" role="button" aria-label="Previous slide"></div>
+                                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+<!--                                        </div>-->
+                                    </li>
+                                    <li>
+                                        <div class="box">
+                                            <div>
+                                                <p>신약개발 특정 단계의 솔루션을 <br>
+                                                빠르게 제공합니다.</p>
+                                            </div>
+                                        </div>
+                                        <div class="tit">
+                                            <div class="left">
+                                                <span>Platform service</span>
+                                                <strong>9 Cases</strong>
+                                            </div>
+                                            <div class="right">
+                                                <ul>
+                                                    <li><i><img src="/img/main/m_icon02_01.png" alt=""></i></li>
+                                                    <li><i><img src="/img/main/m_icon02_02.png" alt=""></i></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+<!--                                        <div class="logo_w">-->
+                                            <div class="logo_s swiper-container-initialized swiper-container-horizontal">
+                                               <div class="swiper-wrapper" style="transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0"><div><img src="/img/main/s_logo11.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1"><div><img src="/img/main/s_logo12.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2"><div><img src="/img/main/s_logo13.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3"><div><img src="/img/main/s_logo14.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4"><div><img src="/img/main/s_logo11.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="5"><div><img src="/img/main/s_logo12.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="6"><div><img src="/img/main/s_logo13.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="7"><div><img src="/img/main/s_logo14.png" alt=""></div></div>
+                                                 <div class="swiper-slide" data-swiper-slide-index="0"><div><img src="/img/main/s_logo11.png" alt=""></div></div>
+                                                 <div class="swiper-slide" data-swiper-slide-index="1"><div><img src="/img/main/s_logo12.png" alt=""></div></div>
+                                                 <div class="swiper-slide" data-swiper-slide-index="2"><div><img src="/img/main/s_logo13.png" alt=""></div></div>
+                                                 <div class="swiper-slide" data-swiper-slide-index="3"><div><img src="/img/main/s_logo14.png" alt=""></div></div>
+                                                 <div class="swiper-slide" data-swiper-slide-index="4"><div><img src="/img/main/s_logo11.png" alt=""></div></div>
+                                                 <div class="swiper-slide" data-swiper-slide-index="5"><div><img src="/img/main/s_logo12.png" alt=""></div></div>
+                                                 <div class="swiper-slide" data-swiper-slide-index="6"><div><img src="/img/main/s_logo13.png" alt=""></div></div>
+                                                 <div class="swiper-slide" data-swiper-slide-index="7"><div><img src="/img/main/s_logo14.png" alt=""></div></div>
+                                               <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0"><div><img src="/img/main/s_logo11.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1"><div><img src="/img/main/s_logo12.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2"><div><img src="/img/main/s_logo13.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3"><div><img src="/img/main/s_logo14.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4"><div><img src="/img/main/s_logo11.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="5"><div><img src="/img/main/s_logo12.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="6"><div><img src="/img/main/s_logo13.png" alt=""></div></div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="7"><div><img src="/img/main/s_logo14.png" alt=""></div></div></div> 
+                                               <div class="swiper-next" tabindex="0" role="button" aria-label="Next slide"></div>
+                                               <div class="swiper-prev" tabindex="0" role="button" aria-label="Previous slide"></div>
+                                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+<!--                                        </div>-->
+                                    </li>
+                                    <li>
+                                        <div class="box">
+                                            <div>
+                                                <p>플랫폼으로 도출한 최종 컴파운드 내 <br>
+                                                유효물질의 비율</p>
+                                            </div>
+                                        </div>
+                                        <div class="tit">
+                                            <div class="left">
+                                                <span>Hit ratio</span>
+                                                <strong>7%</strong>
+                                            </div>
+                                            <div class="right">
+                                                <ul>
+                                                    <li><i><img src="/img/main/m_icon03_01.png" alt=""></i></li>
+                                                    <li><i><img src="/img/main/m_icon03_02.png" alt=""></i></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="logo_t">
+                                            <ul>
+                                                <li>Conventional docking <span>1%</span></li>
+                                                <li>High-throughput screening <span>0.1%</span></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="box">
+                                            <div>
+                                                <p>결과 전달까지 평균 프로젝트 수행 기간</p>
+                                            </div>
+                                        </div>
+                                        <div class="tit">
+                                            <div class="left">
+                                                <span>Digital to real</span>
+                                                <strong>3 weeks</strong>
+                                            </div>
+                                            <div class="right">
+                                                <i class="circle"><img src="/img/main/m_icon04.png" alt=""></i>
+                                            </div>
+                                        </div>
+                                        <div class="line_area">
+                                            <div class="line">
+                                                <i></i>
+                                            </div>
+                                        </div>
+                                        <div class="txt">
+                                            <span>HITS Platform</span>
+                                            <span class="fr">결과전달</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section main_con02">
+                    <div class="inner">
+                        <div class="wrap">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <div class="ic ic01">
+                                            <ul>
+                                                <li><img src="/img/main/m2_icon01_01.png" alt=""></li>
+                                                <li><img src="/img/main/m2_icon01_02.png" alt=""></li>
+                                            </ul>
+                                            <div class="center">
+                                                <img src="/img/main/m2_icon01_03.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="txt">
+                                            <strong>초기 후보물질 발굴</strong>
+                                            <p>구조 기반 약물-단백질 결합력 예측 <br>
+                                            딥러닝 모델 및 첨단 디지털 기술을 이용하여 <br>
+                                            약물 후보를 선별합니다.</p>
+                                            <ul>
+                                                <li>Hit discovery</li>
+                                                <li>Deep learning based DTI</li>
+                                                <li>Physics informed AI</li>
+                                            </ul>
+                                        </div>
+                                        <div class="icon"><img src="/img/main/plus.png" alt=""></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="ic ic02">
+                                            <ul>
+                                                <li><img src="/img/main/m2_icon02_01.png" alt=""></li>
+                                                <li><img src="/img/main/m2_icon02_02.png" alt=""></li>
+                                            </ul>
+                                        </div>
+                                        <div class="txt">
+                                            <strong>약물 후보물질 설계</strong>
+                                            <p>딥러닝을 이용하여 신규 약물 후보물질을 <br>
+                                            디자인합니다. 작용기 단위 분자 디자인 알고리즘을 <br>
+                                            통해 합성 가능성이 높은 분자를 설계할 수 있습니다.</p>
+                                            <ul>
+                                                <li>Hit-to-lead</li>
+                                                <li>Deep generative model</li>
+                                                <li>Virtual library</li>
+                                            </ul>
+                                        </div>
+                                        <div class="icon"><img src="/img/main/plus.png" alt=""></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="ic ic03">
+                                            <ul>
+                                                <li><img src="/img/main/m2_icon03_01.png" alt=""></li>
+                                                <li><img src="/img/main/m2_icon03_02.png" alt=""></li>
+                                            </ul>
+                                        </div>
+                                        <div class="txt">
+                                            <strong>약물 물성 예측</strong>
+                                            <p>전임상 진입을 위해 필요한 PK/PD 관련 <br>
+                                            물성들을 예측합니다. 다양한 물성 예측을 통해 <br>
+                                            사전 검증함으로써 전임상 성공률을 높입니다. </p>
+                                            <ul>
+                                                <li>Lead optimization</li>
+                                                <li>ADME/T</li>
+                                                <li>Generalization</li>
+                                            </ul>
+                                        </div>
+                                        <div class="icon"><img src="/img/main/plus.png" alt=""></div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="section main_con03">
+                    <div class="wrap">
+                        <div class="inner">
+                            <div class="left">
+                                <strong>
+                                <i><img src="/img/main/hits.png" alt=""></i> <br>
+                                하나 <br>
+                                더했을 뿐인데</strong>
+                                <div class="img">
+                                    <ul>
+                                        <li><img src="/img/main/img_base01.png" alt=""></li>
+                                        <li><img src="/img/main/img_base02.png" alt=""></li>
+                                        <li><img src="/img/main/img_base03.png" alt=""></li>
+                                        <li><img src="/img/main/img_base04.png" alt=""></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <ul>
+                                    <li>
+                                        <div class="txt">
+                                            <strong>유효물질 발굴이 더 빨라집니다. </strong>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="txt">
+                                            <strong>1주일 만에 44만개 라이브러리 중 8종 확인</strong>
+                                            <span>*파트너사 실험 기간 3주</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="txt">
+                                            <strong>타겟 단백질 분석이 더 쉬워집니다.</strong>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="txt">
+                                            <strong>새로운 약물 작용 기전을 제시할 수 있습니다.</strong>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="txt">
+                                            <strong>합성이 쉽고 특허성 있는 신규 골격을 발굴할 수 있습니다.</strong>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="txt">
+                                            <strong>기존에는 1년 동안 활성물질 2종 발굴, 이젠 6개월 만에 15종</strong>
+                                        </div>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            var swiper = new Swiper('.main_w', {
+              direction: 'horizontal',
+              slidesPerView: "auto",
+              freeMode: true,
+              mousewheel: true,
+              navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+             },
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+            breakpoints: { //반응형 조건 속성
+                
+                1416: {
+                 direction: "vertical",
+                },
+              }
+              
+            });
+            var swiper2 = new Swiper('.logo_s', {
+             slidesPerView: 'auto',
+             autoplay: 3000,    
+             spaceBetween: 0,
+             loop: true,
+             navigation: {
+                    nextEl: ".swiper-next",
+                    prevEl: ".swiper-prev",
+             },
+            breakpoints: { //반응형 조건 속성
+                1200: {
+                  slidesPerView: 4,
+                },
+              }
+            });
+            
+            var swiper3 = new Swiper(".mySwiper", {
+                direction: "vertical",
+                pagination: {
+                  el: ".swiper-pagination",
+                  clickable: true,
+                },
+             });
+            
+            $('.main_con01').addClass('on');
+            
+            $('#main .main_con01 .con02 > ul > li').hover(function(){
+                $(this).children('.box').fadeIn(0);
+            }, function(){
+                $('.box').fadeOut(0);
+            });
+            
+            $('.all_next').hover(function(){
+                $('#main .main_con01 .fix span').css('color','#36c2ba')
+            }, function(){
+                $('#main .main_con01 .fix span').css('color','#c3cddb')
+            })
+        })
+    </script>
+<!--
+    <script type="text/javascript">
+		$(document).ready(function(){
+		   $("#footer").load("/html/footer_en.html");
+		});
+    </script>
+    <div id="footer"></div>
+-->
+  
+
+</body></html>
