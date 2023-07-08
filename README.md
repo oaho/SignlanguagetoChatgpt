@@ -21,5 +21,6 @@
 # 🏷Preview
 ![Untitled](https://github.com/oaho/SignlanguagetoChatgpt/assets/112054732/daa2110b-4900-48ce-9467-40a7c0e58bb6)
 ![Untitled2](https://github.com/oaho/SignlanguagetoChatgpt/assets/112054732/69c21b35-a1dc-4146-bad0-47395e3817a2)
-![Untitled3](https://github.com/oaho/SignlanguagetoChatgpt/assets/112054732/64ebed1d-6e3c-4189-aa77-820ab6991cef)
+![Untitled4](https://github.com/oaho/SignlanguagetoChatgpt/assets/112054732/c76a14f3-6d86-430e-97ad-3bef85879743)
+
 
