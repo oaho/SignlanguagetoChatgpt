@@ -19,6 +19,7 @@
 <br>
 
 # 🏷Preview
-<img src="./image/1.png" width="700" height="370">
-<img src="https://github.com/oaho/SignlanguagetoChatgpt/assets/112054732/28bfd6a5-6f0e-452a-a664-b663cf42c314" width="700" height="370">
-<img src="https://github.com/oaho/SignlanguagetoChatgpt/assets/112054732/ce43076e-7ce6-4d4e-93c9-7225b61b9d70" width="700" height="370">
+![Untitled](https://github.com/oaho/SignlanguagetoChatgpt/assets/112054732/daa2110b-4900-48ce-9467-40a7c0e58bb6)
+![Untitled2](https://github.com/oaho/SignlanguagetoChatgpt/assets/112054732/69c21b35-a1dc-4146-bad0-47395e3817a2)
+![Untitled3](https://github.com/oaho/SignlanguagetoChatgpt/assets/112054732/64ebed1d-6e3c-4189-aa77-820ab6991cef)
+
