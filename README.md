@@ -16,7 +16,7 @@ KT AIVLE 7차 미니프로젝트
 - MLflow
 - AWS
 - ChatGPT API
-- SQLLite
+- SQLite
 
   
 <br>
